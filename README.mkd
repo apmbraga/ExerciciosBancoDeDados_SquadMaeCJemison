@@ -2,7 +2,7 @@
 
 ## SQUAD MAE C. JEMISON - Exercício de Banco de Dados
 
-Este repositório contém o exercício de Banco de Dados da Squad Mae C. Jemison, parte do Bootcamp Back-end Python e Django. Nós escolhemos o exercício referente ao GERENCIAMENTO DE BIBLIOTECA, seguindo os modelos e requisitos da atividdade de Programação Orientada a Objetos.
+Este repositório contém o exercício de Banco de Dados da Squad Mae C. Jemison, parte do Bootcamp Back-end Python e Django. Nós escolhemos o exercício referente ao GERENCIAMENTO DE BIBLIOTECA, seguindo os modelos e requisitos da atividade de Programação Orientada a Objetos.
 
 ### Membros da Squad:
 
