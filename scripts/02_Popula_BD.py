@@ -27,8 +27,8 @@ livros_criados = cursor.execute("SELECT * FROM livros u;")
 if isinstance(livros_criados, sqlite3.Cursor):
     print("Tabela livros populada com sucesso!")
 if isinstance(emprestimos_criados, sqlite3.Cursor):
-    print("Tabela livros populada com sucesso!")
+    print("Tabela empréstimos populada com sucesso!")
 if isinstance(usuarios, sqlite3.Cursor):
-    print("Tabela livros populada com sucesso!")
+    print("Tabela usuários populada com sucesso!")
 
 conexao.close
