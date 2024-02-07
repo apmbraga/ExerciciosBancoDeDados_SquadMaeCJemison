@@ -10,7 +10,7 @@ Este repositório contém o exercício de Banco de Dados da Squad Mae C. Jemison
 - Angela Filomena | [anbaptista](https://github.com/anbaptista/)
 - Daniele Ferreira Galvão | [DanieleFG](https://github.com/DanieleFG)
 - Indhira Viana Freire |
-- Manuele Maurício Lamenha |
+- Manuele Maurício Lamenha | [Manu](https://github.com/Manu3052)
 - Millena Figueredo |
 - Quesia De Araújo Santos | [quesia-araujo](https://github.com/quesia-araujo)
 - Siomara Mota |
@@ -26,3 +26,27 @@ Observações importantes sobre a montagem do projeto:
 - Foi utilizada uma Flag de FG_Disponivel na tabela Livros, que indica se os livros estão disponíveis para empréstimo no acervo ou não (0 - Indisponível | 1- Disponível.)
 - Foi utilizado uma Flag de FG_Devolvido na tabela de empréstimos. Se o Livro já foi devolvido, essa Flag fica como 1, se ele ainda está em posse de quem o pegou, essa Flag fica em 0.
 - Dessa forma, sempre que FG_Disponivel estiver 0, deve haver um FG_Devolvido como 0 também em relação aquele mesmo livro.
+
+
+## Como rodar o Projeto?
+Esse projeto utiliza as seguintes tecnologias:
+- Python (Linguagem)
+- Sqlite (Banco de dados)
+- Padronização de código:
+  - Pre-commit
+  - Black
+  - Pylint
+### Crie um ambiente virtual e acesse ela
+- Windows:
+   `python -m venv venv`
+    `venv\Scripts\activate`
+- Linux:
+   `python -m venv venv`
+    `venv/bin/activate.bat`
+
+### Configure seu ambiente virtual
+`pip install -r requirements.txt`
+
+### Criar banco de dados e popular o mesmo:
+
+Esse projeto trabalha através de scripts, por isso é possível rodar os seguintes comandos criar e popular seu bd:
