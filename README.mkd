@@ -50,3 +50,14 @@ Esse projeto utiliza as seguintes tecnologias:
 ### Criar banco de dados e popular o mesmo:
 
 Esse projeto trabalha através de scripts, por isso é possível rodar os seguintes comandos criar e popular seu bd:
+`python scripts\01_Criacao_BD.py`
+`python scripts\02_Popula_BD.py`
+
+### Para rodar cada comsulta ao banco é possível utilize:
+
+- Consulta livros Disponiveis: `python scripts\03.1_Consulta_livros_disponiveis`
+- Consulta livros Emprestados: `python scripts\03.2_Consulta_Livros_emprestados`
+- Consulta buscando por Autor: `python scripts\03.3_Consulta_BuscaporAutor`
+- Consulta buscando por Livros: `python scripts\03.4_Consulta_BuscaporLivro`
+- Consulta buscando por Livros Emprestados com Atraso: `python scripts\03.5_Consulta_Emprestimos_em_atraso`
+- Consulta Atualizar Registros e Deletar Dados: `python scripts\03.6_Consulta_AtualizarRegistros_RemocaoDados`
