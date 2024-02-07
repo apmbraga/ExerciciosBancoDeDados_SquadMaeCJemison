@@ -36,7 +36,7 @@ Esse projeto utiliza as seguintes tecnologias:
   - Pre-commit
   - Black
   - Pylint
-### Crie um ambiente virtual e acesse ela
+### Crie um ambiente virtual e acesse o mesmo
 - Windows:
    `python -m venv venv`
     `venv\Scripts\activate`
@@ -50,6 +50,7 @@ Esse projeto utiliza as seguintes tecnologias:
 ### Criar banco de dados e popular o mesmo:
 
 Esse projeto trabalha através de scripts, por isso é possível rodar os seguintes comandos criar e popular seu bd:
+
 `python scripts\01_Criacao_BD.py`
 `python scripts\02_Popula_BD.py`
 
