@@ -22,7 +22,7 @@ print("Livros que não possuem data de devolução:")
 for livros in livros_nao_entregues:
     print(livros)
 
-# Porém, caso queiramos insirir uma regra de negócio que diz que um livro é considerado
+# Porém, caso queiramos inserir uma regra de negócio que diz que um livro é considerado
 # como atrasado a partir de 5 dias corridos não entregues podemos rodar a seguinte query:
 
 data_atual = date.today()
