@@ -54,7 +54,7 @@ Esse projeto trabalha através de scripts, por isso é possível rodar os seguin
 `python scripts\01_Criacao_BD.py`
 `python scripts\02_Popula_BD.py`
 
-### Para rodar cada comsulta ao banco é possível utilize:
+### Para rodar cada consulta ao banco é possível utilizar:
 
 - Consulta livros Disponiveis: `python scripts\03.1_Consulta_livros_disponiveis`
 - Consulta livros Emprestados: `python scripts\03.2_Consulta_Livros_emprestados`
