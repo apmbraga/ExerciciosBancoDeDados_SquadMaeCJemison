@@ -9,7 +9,7 @@ Este repositório contém o exercício de Banco de Dados da Squad Mae C. Jemison
 - Ana Paula Martins Braga | [apmbraga](https://github.com/apmbraga)
 - Angela Filomena | [anbaptista](https://github.com/anbaptista/)
 - Daniele Ferreira Galvão | [DanieleFG](https://github.com/DanieleFG)
-- Indhira Viana Freire |
+- Indhira Viana Freire | [Indy-electro](https://github.com/Indy-electro)
 - Manuele Maurício Lamenha | [Manu](https://github.com/Manu3052)
 - Millena Figueredo |
 - Quesia De Araújo Santos | [quesia-araujo](https://github.com/quesia-araujo)
