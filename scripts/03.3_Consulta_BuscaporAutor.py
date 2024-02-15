@@ -10,7 +10,6 @@ autor = cursor.execute(
 )
 for _buscaautor in autor:
     print(_buscaautor)
-"""E se não houver autor, podemos colocar algum aviso ou só retorna vazio?"""
 
 conexao.commit()
 

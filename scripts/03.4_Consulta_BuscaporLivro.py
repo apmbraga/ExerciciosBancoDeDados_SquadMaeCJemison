@@ -5,8 +5,9 @@ cursor = conexao.cursor()
 
 # CONSULTA 4: Verificar o número de cópias disponíveis de um determinado livro.
 copiaslivres = cursor.execute(
-    'SELECT titulo, COUNT (*) as quantidade_disponivel from livros where titulo = "As vantagens de ser invisivel"'
+    'SELECT titulo, COUNT (*) as quantidade_disponivel from livros where titulo = "Iracema"'
 )
+print ('Livro | Qtd')
 for _exemplares in copiaslivres:
     print(_exemplares)
 
