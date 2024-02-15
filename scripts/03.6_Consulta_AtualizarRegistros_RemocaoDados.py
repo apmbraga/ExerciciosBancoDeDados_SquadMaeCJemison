@@ -12,7 +12,7 @@ cursor.execute('UPDATE livros SET FG_disponivel = 0 where id_livro = 12')
 
 # Quando a pessoa devolve, é feito o update nas duas tabelas - Empréstimos e Livros
 cursor.execute('update emprestimos SET FG_devolvido = 1 where id_op = 2') #FG_Devolvido = 1 - FOI DEVOLVIDO
-cursor.execute('UPDATE livros SET FG_disponivel = 1 where id_livro = 5') #FG Disponível = 1 - Está disponível para um novo empréstimo
+cursor.execute('UPDATE livros SET FG_disponivel = 1 where id_livro = 12') #FG Disponível = 1 - Está disponível para um novo empréstimo
 
 
 # REMOVER UM LIVRO DANIFICADO DO ACERVO

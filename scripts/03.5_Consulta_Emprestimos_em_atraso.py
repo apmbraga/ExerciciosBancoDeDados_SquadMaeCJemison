@@ -50,9 +50,9 @@ livros_nao_entregues_atual = cursor.execute(
 """
 )
 print(f"Livros não devolvidos até a data {data_atual}")
-livros = {
-    "ID | Emprestado para |Titulo | Autor | Data do empréstimo | Data de Devolução | Dias Corridos desde o Emprestimo"
-}
+print (
+    "ID | Emprestado para |Titulo | Autor | Data do empréstimo | Status | Dias Corridos desde o Emprestimo"
+)
 for livros in livros_nao_entregues_atual:
     print(livros)
 
